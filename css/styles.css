@@ -1,38 +1,49 @@
-body{
-    font-family: 'open sans', sans-serif;
+body {
+  font-family: "open sans", sans-serif;
 }
 
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 
-.logo{
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+  letter-spacing: 0.03em;
 
-    letter-spacing: 0.03em;
-    
-    color: #2196F3;
+  color: #2196f3;
 }
-.contact{
-    position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
+.list {
+  list-style: none;
+}
+.header-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.header-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(44/60);
+  /* or 136% */
 
-color: #2196F3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
